@@ -1,0 +1,36 @@
+@media screen and (min-width:1100px){
+  nav{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 3rem;
+    max-height:5rem;
+    background-color: #E1A4AC;
+    color: #FFFFFF;
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    list-style:none;
+    padding:0;
+  }
+}
+@media screen and (max-width:1100px){
+  nav{
+    display: flex;
+    justify-content: center;
+    font-family: "Spotnik",sans-serif;
+    width: 100%;
+    min-height: 3rem;
+    max-height:5rem;
+    background-color:#E1A4AC;
+    color: #FFFFFF;
+  }
+  ul
+  {
+    list-style:none;
+  }
+}
